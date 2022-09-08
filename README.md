@@ -23,7 +23,7 @@ mapred streaming -input /user/bigdata/wordcount/book.txt -output /user/bigdata/w
 Output the result:
 ```
 hdfs dfs -cat /user/bigdata/wordcount/output/*
-
+```
 
 Stop the DFS:
 ```
