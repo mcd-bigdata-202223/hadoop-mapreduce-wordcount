@@ -2,7 +2,7 @@
 
 Setup Distributed File System:
 ```
-hadoop namenode -format
+hdfs namenode -format
 ```
 
 Start the DFS:
