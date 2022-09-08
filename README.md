@@ -20,6 +20,11 @@ chmod +x wordcount-*.py
 
 mapred streaming -input /user/bigdata/wordcount/book.txt -output /user/bigdata/wordcount/output/ -mapper wordcount-mapper.py -reducer wordcount-reducer.py
 ```
+Output the result:
+```
+hdfs dfs -cat /user/bigdata/wordcount/output/*
+
+
 Stop the DFS:
 ```
 stop-dfs.sh
