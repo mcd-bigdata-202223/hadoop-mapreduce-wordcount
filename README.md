@@ -2,6 +2,8 @@
 
 Download the Lubuntu Virtual Machine with Hadoop Installed
 https://myipleiria.sharepoint.com/:u:/s/BigData/EavonLJi881At7-5veEWg7gBkhidgJe4lwesfi_NruTDaQ?e=pXRLcG
+Download VMWare Workstation Player
+https://www.vmware.com/products/workstation-player.html
 
 Setup Distributed File System:
 ```
