@@ -18,7 +18,8 @@ hdfs dfs -copyFromLocal book.txt /user/bigdata/wordcount/
 
 chmod +x wordcount-*.py
 
-mapred streaming -input /user/bigdata/wordcount/book.txt -output /user/bigdata/wordcount/output/ -mapper wordcount-mapper.py -reducer wordcount-reducer.py
+python wordcount-mapreduce.py -r hadoop hdfs:///user/bigdata/wordcount/book.txt  -o hdfs:///user/bigdata/wordcount/output
+
 ```
 Output the result:
 ```
