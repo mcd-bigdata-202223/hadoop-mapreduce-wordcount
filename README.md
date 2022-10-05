@@ -7,7 +7,7 @@ https://www.vmware.com/products/workstation-player.html
 
 Setup Distributed File System:
 ```
-rm –f ~/hadoop-3.3.4/dfs
+rm –rf ~/hadoop-3.3.4/dfs
 hdfs namenode -format
 ```
 
