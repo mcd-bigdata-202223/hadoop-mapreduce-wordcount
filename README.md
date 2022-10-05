@@ -16,9 +16,8 @@ Usage for "book.txt":
 hdfs dfs -mkdir -p /user/bigdata/wordcount/
 hdfs dfs -copyFromLocal book.txt /user/bigdata/wordcount/
 
-chmod +x wordcount-*.py
 
-python wordcount-mapreduce.py -r hadoop hdfs:///user/bigdata/wordcount/book.txt  -o hdfs:///user/bigdata/wordcount/output
+python mrjob-wordcount.py -r hadoop hdfs:///user/bigdata/wordcount/book.txt  -o hdfs:///user/bigdata/wordcount/output
 
 ```
 Output the result:
