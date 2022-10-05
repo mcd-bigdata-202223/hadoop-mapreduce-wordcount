@@ -10,9 +10,10 @@ Setup Distributed File System:
 hdfs namenode -format
 ```
 
-Start the DFS:
+Start the DFS and Yarn:
 ```
 start-dfs.sh
+start-yarn.sh
 ```
 
 Usage for "book.txt":
@@ -31,7 +32,8 @@ Output the result:
 hdfs dfs -cat /user/bigdata/wordcount/output/*
 ```
 
-Stop the DFS:
+Stop the DFS and Yarn:
 ```
 stop-dfs.sh
+stop-yarn.sh
 ```
